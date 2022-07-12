@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Splash&family=The+Nautigal&display=swap');
-@media screen and (max-width:800px){
+/*@media screen and (max-width:800px){
 
     nav{
         flex-direction: column;
@@ -34,7 +34,7 @@
     .card-item img{ 
         width: 140px;
     }
-}
+}*/
 .msg{
     font-size: larger;
 }
@@ -61,18 +61,18 @@ header{
 .logo img{
     height: 50px;
     padding: 0px 25px;
-    width: 70px;
+    width: 90px;
 }
-nav{
+   /* nav{
     display: flex;
     position: sticky ;
-}
-nav ul{
+}*/
+/*nav ul{
     height: 9vh;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-}
+   /* align-items: center;}*/
+
 .name{
     color: white;
     text-decoration: none;
@@ -91,7 +91,6 @@ nav ul li a {
 }
 nav ul li a:hover{
     color: black;
-    background-color:#F6FBF4;
     text-decoration: none;
     font-style:italic;
     font-weight: bolder;
