@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Splash&family=The+Nautigal&display=swap');
+@media screen and (max-width:800px){
+
+    nav{
+        flex-direction: column;
+    }
+
+    .slider{
+        height: 23vh;
+    }
+
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .search{
+        justify-content: center;
+    }
+
+    .search input{
+        margin: 12px 16px;
+    }
+
+    nav ul {
+        height: 34px;
+    }
+    .card-item img{ 
+        width: 140px;
+    }
+}
+.msg{
+    font-size: larger;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F6FBF4;
+}
+header{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color:#1B2430;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+  
+}
+.logo img{
+    height: 50px;
+    padding: 0px 25px;
+    width: 70px;
+}
+nav{
+    display: flex;
+    position: sticky ;
+}
+nav ul{
+    height: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name{
+    color: white;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+nav ul li {
+    list-style: none;
+    padding:0px 23px;
+    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: black;
+    background-color:#F6FBF4;
+    text-decoration: none;
+    font-style:italic;
+    font-weight: bolder;
+
+}
+footer {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    height: 4vh;
+    border: 3px solid #361500;
+}
+.container{
+    min-height: 85vh;
+}
+.l{
+    margin: 5px 0px;
+}
+.text-center{
+    text-align: center;
+}
+.flex_all_Centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus{
+    border: 3px solid #361500;
+    display: flex;
+    justify-content:center;
+    margin-left: 15px;
+    margin-top: 120px;
+    
+    
+}
+.slideraboutus{
+    border: 2px solid #1B2430;
+    border-bottom: none;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.allign{
+    margin-left: 100px;
+}
+.abf{
+    font-family: 'Indie Flower', cursive;
+    font-size: xx-large;
+    margin-top: 25px;
+}
+.cont{
+    margin: 10px;
+    padding: 10px;
+}
+.slider2{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+ul li {
+    list-style:circle;
+    padding:0px 23px;
+}
+ ul li a {
+    color: #361500 ;
+    text-decoration: none;
+    
+}
+ ul li a:hover{
+    color: black;
+    background-color:antiquewhite;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+
+}
