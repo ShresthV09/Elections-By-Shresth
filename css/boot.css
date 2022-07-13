@@ -390,7 +390,7 @@
     overflow-y: visible;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .navbar-expand-xl {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -437,7 +437,7 @@
     overflow-y: visible;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1000px) {
   .navbar-expand-xxl {
     flex-wrap: nowrap;
     justify-content: flex-start;
